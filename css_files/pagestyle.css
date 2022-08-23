@@ -1,0 +1,72 @@
+.main {
+  display: inline-flex;
+  padding: 1em;
+  margin: 1em;
+  align-items: center;
+}
+
+.highlighting {
+  border-left: 5px solid #1044ff;
+  height: 96px;
+  margin: 27px;
+  padding-left: 18px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  gap: 2rem;
+}
+
+.author img {
+  border-radius: 10px;
+}
+
+ul {
+  list-style: circle;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 1fr 1fr;
+}
+
+.card img {
+  grid-row: span 2;
+}
+
+.icon img {
+  width: 2em;
+  height: 2em;
+}
+.example1 {
+  display: flex;
+  border-radius: 30px;
+  justify-content: center;
+  padding: 15px;
+  margin: 15px auto;
+  width: 40%;
+}
+
+p {
+  font-family: open sans;
+}
+
+/*@media only screen and (max-width: 800px) {*/
+
+@media only screen and (max-width: 400px) {
+}
+.highlighting img {
+  padding: 5px;
+  padding-top: 5px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
