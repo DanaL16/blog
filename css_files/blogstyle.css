@@ -15,6 +15,7 @@ body{
     "header header"
     "main aside"
     "footer footer";
+    margin: 0 15px;
 }
 
  aside{
